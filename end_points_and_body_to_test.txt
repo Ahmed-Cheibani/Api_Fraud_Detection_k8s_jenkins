@@ -1,0 +1,52 @@
+127.0.0.1:5000/transaction_fraud_detection
+
+{"Clinet_ID": "3912", "Familial_status": "Mariée", "Income_amount": "[2000,5000]", 
+"Multicanal": "Oui", "Has_a_card": "Oui", "SEG": "104", "DNA_Year": "53", "DNA_Month": "11", "DNA_Day": "20",
+"Product_code": "11.0", "Account_number": "7755000331", "Code_devise": "0", "Account_chapter": "25110101",
+"Start_of_month_amount": "4893.221", "End_of_month_amount": "5491.304", "Average_amount": "5778.9940000000015",
+"DATE_OUVERTURE_COMPTE_Year": "93", "DATE_OUVERTURE_COMPTE_Month": "9", "DATE_OUVERTURE_COMPTE_Day": "93", 
+"DATE_FERMETURE_COMPTE_Year": "0", "DATE_FERMETURE_COMPTE_Month": "0", "DATE_FERMETURE_COMPTE_Day": "0", 
+"Branche_code": "208", "Operation_code": "625", "Amount": "1474.2", "DEV": "0", "Transaction_type": "Débit", 
+"ORIGINE": "AGENCE", "Transaction_label": "DEMANDE EXTRAIT DE COMPTE", "DCO_Year": "18", "DCO_Month": "3", 
+"DCO_Day": "5", "Operation_category": "Food & Dining"}
+
+
+
+
+
+
+
+
+127.0.0.1:5000/transactions_fraud_detection
+
+
+
+{"transactions":[
+    {"Clinet_ID": "3912", "Familial_status": "Mariée", "Income_amount": "[2000,5000]", 
+"Multicanal": "Oui", "Has_a_card": "Oui", "SEG": "104", "DNA_Year": "53", "DNA_Month": "11", "DNA_Day": "20",
+"Product_code": "11.0", "Account_number": "7755000331", "Code_devise": "0", "Account_chapter": "25110101",
+"Start_of_month_amount": "4893.221", "End_of_month_amount": "5491.304", "Average_amount": "5778.9940000000015",
+"DATE_OUVERTURE_COMPTE_Year": "93", "DATE_OUVERTURE_COMPTE_Month": "9", "DATE_OUVERTURE_COMPTE_Day": "93", 
+"DATE_FERMETURE_COMPTE_Year": "0", "DATE_FERMETURE_COMPTE_Month": "0", "DATE_FERMETURE_COMPTE_Day": "0", 
+"Branche_code": "208", "Operation_code": "625", "Amount": "1474.2", "DEV": "0", "Transaction_type": "Débit", 
+"ORIGINE": "AGENCE", "Transaction_label": "DEMANDE EXTRAIT DE COMPTE", "DCO_Year": "18", "DCO_Month": "3", 
+"DCO_Day": "5", "Operation_category": "Food & Dining"},
+{"Clinet_ID": "3912", "Familial_status": "Mariée", "Income_amount": "[2000,5000]", 
+"Multicanal": "Oui", "Has_a_card": "Oui", "SEG": "104", "DNA_Year": "53", "DNA_Month": "11", "DNA_Day": "20",
+"Product_code": "11.0", "Account_number": "7755000331", "Code_devise": "0", "Account_chapter": "25110101",
+"Start_of_month_amount": "4893.221", "End_of_month_amount": "5491.304", "Average_amount": "5778.9940000000015",
+"DATE_OUVERTURE_COMPTE_Year": "93", "DATE_OUVERTURE_COMPTE_Month": "9", "DATE_OUVERTURE_COMPTE_Day": "93", 
+"DATE_FERMETURE_COMPTE_Year": "0", "DATE_FERMETURE_COMPTE_Month": "0", "DATE_FERMETURE_COMPTE_Day": "0", 
+"Branche_code": "208", "Operation_code": "625", "Amount": "1474.2", "DEV": "0", "Transaction_type": "Débit", 
+"ORIGINE": "AGENCE", "Transaction_label": "DEMANDE EXTRAIT DE COMPTE", "DCO_Year": "18", "DCO_Month": "3", 
+"DCO_Day": "5", "Operation_category": "Food & Dining"},
+{"Clinet_ID": "3912", "Familial_status": "Mariée", "Income_amount": "[2000,5000]", 
+"Multicanal": "Oui", "Has_a_card": "Oui", "SEG": "104", "DNA_Year": "53", "DNA_Month": "11", "DNA_Day": "20",
+"Product_code": "11.0", "Account_number": "7755000331", "Code_devise": "0", "Account_chapter": "25110101",
+"Start_of_month_amount": "4893.221", "End_of_month_amount": "5491.304", "Average_amount": "5778.9940000000015",
+"DATE_OUVERTURE_COMPTE_Year": "93", "DATE_OUVERTURE_COMPTE_Month": "9", "DATE_OUVERTURE_COMPTE_Day": "93", 
+"DATE_FERMETURE_COMPTE_Year": "0", "DATE_FERMETURE_COMPTE_Month": "0", "DATE_FERMETURE_COMPTE_Day": "0", 
+"Branche_code": "208", "Operation_code": "625", "Amount": "1474.2", "DEV": "0", "Transaction_type": "Débit", 
+"ORIGINE": "AGENCE", "Transaction_label": "DEMANDE EXTRAIT DE COMPTE", "DCO_Year": "18", "DCO_Month": "3", 
+"DCO_Day": "5", "Operation_category": "Food & Dining"}
+]}
