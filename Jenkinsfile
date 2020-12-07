@@ -64,7 +64,7 @@ podTemplate(
         {
             container ('helm') 
             {
-                sh "helm upgrade apifraud fraudapp-chart -n fraude -i --wait --set image.repository=${repository},image.tag=${commitId}"
+                sh "helm upgrade apifraud fraudapp-chart -n fraude_Dev_env -i --wait --set image.repository=${repository},image.tag=${commitId}"
             }
         }
     }   
