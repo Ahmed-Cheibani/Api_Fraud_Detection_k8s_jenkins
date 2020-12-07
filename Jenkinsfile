@@ -55,7 +55,12 @@ podTemplate(
                 }
             }
         }
-        stage ('Helm Deploy') 
+         stage ('Test app') 
+        {
+          echo "test app "
+        }
+
+        stage ('Helm Deploy Application to Kubernates')
         {
             container ('helm') 
             {
